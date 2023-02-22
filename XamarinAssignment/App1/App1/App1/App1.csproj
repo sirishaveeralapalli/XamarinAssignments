@@ -20,9 +20,4 @@
   <ItemGroup>
     <Folder Include="Output\" />
   </ItemGroup>
-  <ItemGroup>
-    <None Update="Output\Screenshot_1676967070.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
 </Project>
