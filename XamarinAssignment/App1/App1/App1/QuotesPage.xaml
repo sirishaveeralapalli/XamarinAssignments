@@ -4,9 +4,11 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="App1.QuotesPage" Padding="20">
         <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" >
+        <Button Text="next" HorizontalOptions="Center" VerticalOptions="StartAndExpand" BackgroundColor="White" TextColor="DeepSkyBlue"></Button>
             <Label TextColor="Black" x:Name="fontSize" HorizontalOptions="Start"></Label>
         <Slider x:Name="slider1" Maximum="20" Minimum="16" ThumbColor="Black" MaximumTrackColor="Red" MinimumTrackColor="Red" HeightRequest="20" ValueChanged="slider1_ValueChanged"></Slider>
             <Label TextColor="Black" x:Name="quote"></Label>
+        <!--<Button BackgroundColor="Black" Text="EncodeVideo" TextColor="White" Clicked="Button_Clicked"></Button>-->
             </StackLayout>
 </ContentPage>
 
